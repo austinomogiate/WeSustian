@@ -1,0 +1,18 @@
+{
+  "name": "We Sustain",
+  "short_name": "We Sustain",
+  "description": "Employee volunteering, made personal. Find opportunities, track your impact, and give back together.",
+  "start_url": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#16a34a",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
