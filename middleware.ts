@@ -25,6 +25,11 @@ export async function middleware(request: NextRequest) {
   }
 
   const { supabase, response } = await updateSession(request);
+
+  if (!supabase) {
+    return response;
+  }
+
   const {
     data: { user }
   } = await supabase.auth.getUser();
